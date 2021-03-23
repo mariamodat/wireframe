@@ -2,23 +2,63 @@ body{
     font-family: 'Oswald', sans-serif;
 }
 
- li.logo~li  {
+header nav ul li  { display: inline-block;
+    font-family:'Courgette', cursive;
+    padding: 10px;
+    background-color: #d8e2dc;
+    border-radius: 40px;
+    text-align: center;
+    margin: 50px;
+}
+
+
+
+nav ul li a :hover{
+background-color: cornflowerblue;
+
+
+}
+
+/* make the hero img in the center */
+section > img {
+margin-left: auto;
+margin-right:auto ;
+display: block;
+
+
+
+}
+
+
+
+
+
+
+div  ul li  {
     display: inline-block;
-    margin: 40px;
-    font-family: 'Oswald', sans-serif;
-}
-.logo {
-    display: inline-block ;
-    margin-top: 20px;
-    margin-left: 40px;
+padding: 15px;
+margin-left: auto;
+margin-left: 25px;
+margin-bottom: 30px;
+margin-right: auto;
 }
 
-#hero
-{margin: 20px 40px 40px;
-}
 
-#subBanner
-{
-display: inline-block;
-margin-left: 40px;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+section.f >img {
+    float: left;
 }
