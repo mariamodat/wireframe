@@ -1,0 +1,24 @@
+body{
+    font-family: 'Oswald', sans-serif;
+}
+
+ li.logo~li  {
+    display: inline-block;
+    margin: 40px;
+    font-family: 'Oswald', sans-serif;
+}
+.logo {
+    display: inline-block ;
+    margin-top: 20px;
+    margin-left: 40px;
+}
+
+#hero
+{margin: 20px 40px 40px;
+}
+
+#subBanner
+{
+display: inline-block;
+margin-left: 40px;
+}
